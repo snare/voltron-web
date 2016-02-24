@@ -5,7 +5,7 @@ var BowerWebpackPlugin = require("bower-webpack-plugin");
 module.exports = {
     entry: ['./app/index.jsx'],
     output: {
-        path: './js',
+        path: './build',
         filename: 'bundle.js'
     },
     resolve: {
