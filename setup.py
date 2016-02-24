@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="voltron-web",
-    version="0.1",
+    version="0.1.1",
     author="snare",
     author_email="snare@ho.ax",
     description=("Voltron web interface"),
@@ -16,6 +16,6 @@ setup(
     ],
     zip_safe=False,
     package_data={
-        'voltron_web': ['static/js/bundle.js'],
+        'voltron_web': ['static/build/bundle.js', 'templates/index.html'],
     },
 )
